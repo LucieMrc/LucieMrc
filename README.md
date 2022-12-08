@@ -1,31 +1,31 @@
 # Tutoriels :
 
 ## Les machines de l'Ateliernum
-- **[Axidraw 2spi](https://github.com/LucieMrc/Axidraw_2spi) & [english version](https://github.com/LucieMrc/Axidraw_sp33d)**
+- [Axidraw 2spi](https://github.com/LucieMrc/Axidraw_2spi) & [english version](https://github.com/LucieMrc/Axidraw_sp33d)
 
 *Ou comment utiliser plus ou moins en autonomie l'Axidraw avec Inkscape et un .svg.*
 
 *On how to use with almost full autonomy the Axidraw with a .svg and Inkscape.*
 
-- **[Brodeuse 2spi](https://github.com/LucieMrc/BrodeuseNum_2spi) & *[english version](https://github.com/LucieMrc/EmbroideryMachine_sp33d)***
+- [Brodeuse 2spi](https://github.com/LucieMrc/BrodeuseNum_2spi) & [english version](https://github.com/LucieMrc/EmbroideryMachine_sp33d)
 
 *Ou comment utiliser plus ou moins en autonomie la brodeuse numérique.*
 
 *On how to use with almost full autonomy the embroidery machine.*
 
-- **[Prise de son 2spi](https://github.com/LucieMrc/Prise2son_2spi) & *[english version](https://github.com/LucieMrc/SoundRecording_sp33d)***
+- [Prise de son 2spi](https://github.com/LucieMrc/Prise2son_2spi) & [english version](https://github.com/LucieMrc/SoundRecording_sp33d)
 
 *Ou comment faire une prise de son en autonomie pour les voix-off, les podcasts et ainsi de suite.*
 
 *On how to record voices with almost full autonomy, for voice over, podcast, etc.*
 
-- **[Silhouette Cameo 2spi](https://github.com/LucieMrc/SilhouetteCameo_2spi) & *[english version](https://github.com/LucieMrc/SilhouetteCameo_sp33d)***
+- [Silhouette Cameo 2spi](https://github.com/LucieMrc/SilhouetteCameo_2spi) & [english version](https://github.com/LucieMrc/SilhouetteCameo_sp33d)
 
 *Ou comment utiliser plus ou moins en autonomie la Silhouette Cameo pour découper du vinyle, papier, et ainsi de suite.*
 
 *On how to use the Silhouette Cameo with almost full autonomy, to cut vinyl, paper, etc.*
 
-- **[Salle fond vert](https://github.com/LucieMrc/SalleFondVert_Controller) & *[english version](https://github.com/LucieMrc/GreenScreenStudio_Controller)***
+- [Salle fond vert](https://github.com/LucieMrc/SalleFondVert_Controller) & [english version](https://github.com/LucieMrc/GreenScreenStudio_Controller)
 
 *Ou comment utiliser plus ou moins en autonomie le controleur light de la salle fond vert qui fait tablette (OSC) > ordinateur (Chataigne) > lights (DMX).*
 
