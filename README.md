@@ -32,13 +32,15 @@
 *On how to use with almost full autonomy the light fixtures controller in the green screen studio, going tablet (OSC) > computer (Chataigne) > light fixtures (DMX).*
 
 ## TouchDesigner
-- [Intro TD](https://github.com/LucieMrc/IntroTD_Stereolux)
+- [Intro TD](https://github.com/LucieMrc/IntroTD_Stereolux) in english
 
-*Très rapide intro avec des artistes à voir et des chaînes youtube de tutos.*
+*Quick intro with artists, youtube tutorials, and basic networks.*
 
-- [Audio react](https://github.com/LucieMrc/TD_audioreact_love)
+- [Audio react](https://github.com/LucieMrc/TD_audioreact_love) & [english version](https://github.com/LucieMrc/TD_audioreact_love)
 
 *Ou comment générer des visuels audio-réactifs sur TouchDesigner pour faire des dingz.*
+
+*On how to generative audio-reactive visuals with TouchDesigner.*
 
 - [Augmenta](https://github.com/LucieMrc/TD_Augmenta)
 
