@@ -42,7 +42,7 @@
 
 *On how to generative audio-reactive visuals with TouchDesigner.*
 
-- [Augmenta](https://github.com/LucieMrc/TD_Augmenta)
+- [Augmenta](https://github.com/LucieMrc/TD_Augmenta) in english
 
 *The goal is to create interactive installations using video mapping and the tracking system Augmenta with TouchDesigner. Augmenta allows you to track people and objects with 3D cameras or LiDAR, with data such as size (as a bounding box), position, velocity and orientation.*
 
@@ -50,7 +50,7 @@
 
 *Ou comment utiliser le TOP `Feedback` sur TouchDesigner pour faire des dingz.*
 
-- [Kantan](https://github.com/LucieMrc/TD_KantanMapper)
+- [Kantan](https://github.com/LucieMrc/TD_KantanMapper) in english
 
 *The goal is to use KantanMapper in TouchDesigner to create video mapping installations. KantanMapper allows you to place shapes and masks on real life objects and assign TOP nodes to them.*
 
