@@ -36,7 +36,7 @@
 
 *Quick intro with artists, youtube tutorials, and basic networks.*
 
-- [Audio react](https://github.com/LucieMrc/TD_audioreact_love) & [english version](https://github.com/LucieMrc/TD_audioreact_love)
+- [Audio react](https://github.com/LucieMrc/TD_audioreact_love) & [english version](https://github.com/LucieMrc/TD_audioreact_love_EN)
 
 *Ou comment générer des visuels audio-réactifs sur TouchDesigner pour faire des dingz.*
 
@@ -46,7 +46,7 @@
 
 *The goal is to create interactive installations using video mapping and the tracking system Augmenta with TouchDesigner. Augmenta allows you to track people and objects with 3D cameras or LiDAR, with data such as size (as a bounding box), position, velocity and orientation.*
 
-- [Feedback love](https://github.com/LucieMrc/TD_feedback_love)
+- [Feedback love](https://github.com/LucieMrc/TD_feedback_love_EN)
 
 *Ou comment utiliser le TOP `Feedback` sur TouchDesigner pour faire des dingz.*
 
