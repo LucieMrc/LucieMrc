@@ -50,7 +50,7 @@
 
 *Ou comment utiliser le TOP `Feedback` sur TouchDesigner pour faire des dingz.*
 
-- [Kantan](https://github.com/LucieMrc/TD_KantanMapper) in english
+- [KantanMapper](https://github.com/LucieMrc/TD_KantanMapper) in english
 
 *The goal is to use KantanMapper in TouchDesigner to create video mapping installations. KantanMapper allows you to place shapes and masks on real life objects and assign TOP nodes to them.*
 
@@ -89,6 +89,6 @@
 
 *Ou comment utiliser Chataigne pour interfacer et faire le lien entre différents logiciels, protocoles et devices.*
 
-- [spark target tracker](https://github.com/LucieMrc/Spark_TargetTracker_2spi)
+- [SparkAR target tracker](https://github.com/LucieMrc/Spark_TargetTracker_2spi)
 
 *Ou comment créer rapidement un filtre Spark en réalité augmentée avec un Target Tracker.*
