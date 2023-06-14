@@ -25,7 +25,7 @@
 
 *On how to use the Silhouette Cameo with almost full autonomy, to cut vinyl, paper, etc.*
 
-- [Salle fond vert](https://github.com/LucieMrc/SalleFondVert_Controller) & [english version](https://github.com/LucieMrc/GreenScreenStudio_Controller)
+- [Salle fond vert](https://github.com/LucieMrc/SalleFondVert_Controller)
 
 *Ou comment utiliser plus ou moins en autonomie le controleur light de la salle fond vert qui fait tablette (OSC) > ordinateur (Chataigne) > lights (DMX).*
 
