@@ -32,31 +32,35 @@
 *On how to use with almost full autonomy the light fixtures with Chataigne.*
 
 ## TouchDesigner
-- [Intro TD](https://github.com/LucieMrc/IntroTD_Stereolux) in english
+- [Intro TD (EN)](https://github.com/LucieMrc/IntroTD_Stereolux) in english
 
 *Quick intro with artists, youtube tutorials, and basic networks.*
 
-- [Audio react](https://github.com/LucieMrc/TD_audioreact_love) & [english version](https://github.com/LucieMrc/TD_audioreact_love_EN)
+- [Visuels audio réactifs (FR)](https://github.com/LucieMrc/TD_audioreact_love) & [Audio reactiove visuals (EN)](https://github.com/LucieMrc/TD_audioreact_love_EN)
 
 *Ou comment générer des visuels audio-réactifs sur TouchDesigner pour faire des dingz.*
 
 *On how to generative audio-reactive visuals with TouchDesigner.*
 
-- [Augmenta](https://github.com/LucieMrc/TD_Augmenta) in english
+- [Augmenta (EN)](https://github.com/LucieMrc/TD_Augmenta)
 
 *The goal is to create interactive installations using video mapping and the tracking system Augmenta with TouchDesigner. Augmenta allows you to track people and objects with 3D cameras or LiDAR, with data such as size (as a bounding box), position, velocity and orientation.*
 
-- [Feedback love](https://github.com/LucieMrc/TD_feedback_love_EN)
+- [Feedback love (EN)](https://github.com/LucieMrc/TD_feedback_love_EN)
 
 *Ou comment utiliser le TOP `Feedback` sur TouchDesigner pour faire des dingz.*
 
-- [KantanMapper](https://github.com/LucieMrc/TD_KantanMapper) in english
+- [KantanMapper (EN)](https://github.com/LucieMrc/TD_KantanMapper)
 
 *The goal is to use KantanMapper in TouchDesigner to create video mapping installations. KantanMapper allows you to place shapes and masks on real life objects and assign TOP nodes to them.*
 
 - [Photogrammétrie](https://github.com/LucieMrc/Photogrammetrie)
 
 *Ou comment créer un nuage de points à partir de photos d'un objet ou d'une scène, et de manipuler ce nuage dans TouchDesigner.*
+
+- [TouchDesigner vers Chataigne](https://github.com/LucieMrc/TouchDesigner_Chataigne)
+
+*Ou comment amener des couleurs et des valeurs en temps réel depuis Touchdesigner dans Chataigne.*
 
 ## Madmapper
 - [Madmapper intro](https://github.com/LucieMrc/Madmapper_2spi)
@@ -80,7 +84,7 @@
 
 *Ou comment créer une communication série entre la carte Circuit Playground Express d'Arduino, et Processing, notamment en récupérant les valeurs des capteurs capacitifs de la carte.*
 
-- [Processing OSC](https://github.com/LucieMrc/Processing_Android_OSC)
+- [Processing OSC (EN)](https://github.com/LucieMrc/Processing_Android_OSC)
 
 *The goal is to use OSC communication to send data from an android phone to a Processing sketch.*
 
