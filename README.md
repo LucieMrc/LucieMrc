@@ -44,15 +44,15 @@
 
 - [Augmenta (EN)](https://github.com/LucieMrc/TD_Augmenta)
 
-*The goal is to create interactive installations using video mapping and the tracking system Augmenta with TouchDesigner. Augmenta allows you to track people and objects with 3D cameras or LiDAR, with data such as size (as a bounding box), position, velocity and orientation.*
+*The goal is to create interactive installations using video mapping and the tracking system Augmenta with TouchDesigner.*
 
 - [Feedback love (EN)](https://github.com/LucieMrc/TD_feedback_love_EN)
 
-*Ou comment utiliser le TOP `Feedback` sur TouchDesigner pour faire des dingz.*
+*On how to use the `Feedback` TOP in Touchdesigner to do nice stuffs.*
 
 - [KantanMapper (EN)](https://github.com/LucieMrc/TD_KantanMapper)
 
-*The goal is to use KantanMapper in TouchDesigner to create video mapping installations. KantanMapper allows you to place shapes and masks on real life objects and assign TOP nodes to them.*
+*The goal is to use KantanMapper in TouchDesigner to create video mapping installations.*
 
 - [Photogrammétrie](https://github.com/LucieMrc/Photogrammetrie)
 
@@ -60,7 +60,12 @@
 
 - [TouchDesigner vers Chataigne](https://github.com/LucieMrc/TouchDesigner_Chataigne)
 
-*Ou comment amener des couleurs et des valeurs en temps réel depuis Touchdesigner dans Chataigne.*
+*Ou comment échanger des couleurs et des valeurs en temps réel entre Touchdesigner et Chataigne.*
+
+- [Touchdesigner text effects (EN)](https://github.com/LucieMrc/TD_textEffects)
+
+*On how to play around with text with Touchdesigner effects.*
+
 
 ## Madmapper
 - [Madmapper intro](https://github.com/LucieMrc/Madmapper_2spi)
