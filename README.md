@@ -32,9 +32,11 @@
 *On how to use with almost full autonomy the light fixtures with Chataigne.*
 
 ## TouchDesigner
-- [Intro TD (EN)](https://github.com/LucieMrc/IntroTD_Stereolux) in english
+- [Intro TD (FR)](https://github.com/LucieMrc/IntroTD_FR) & [Intro TD (EN)](https://github.com/LucieMrc/IntroTD_Stereolux) 
 
-*Quick intro with artists, youtube tutorials, and basic networks.*
+*Intro rapide avec des exemples de bases, des artistes et des tutos youtube.*
+
+*Quick intro with basic networks, artists and youtube tutorials.*
 
 - [Visuels audio réactifs (FR)](https://github.com/LucieMrc/TD_audioreact_love) & [Audio reactiove visuals (EN)](https://github.com/LucieMrc/TD_audioreact_love_EN)
 
@@ -54,11 +56,11 @@
 
 *The goal is to use KantanMapper in TouchDesigner to create video mapping installations.*
 
-- [Photogrammétrie](https://github.com/LucieMrc/Photogrammetrie)
+- [Photogrammétrie (FR)](https://github.com/LucieMrc/Photogrammetrie)
 
 *Ou comment créer un nuage de points à partir de photos d'un objet ou d'une scène, et de manipuler ce nuage dans TouchDesigner.*
 
-- [TouchDesigner vers Chataigne](https://github.com/LucieMrc/TouchDesigner_Chataigne)
+- [TouchDesigner vers Chataigne (FR)](https://github.com/LucieMrc/TouchDesigner_Chataigne)
 
 *Ou comment échanger des couleurs et des valeurs en temps réel entre Touchdesigner et Chataigne.*
 
@@ -68,19 +70,19 @@
 
 
 ## Madmapper
-- [Madmapper intro](https://github.com/LucieMrc/Madmapper_2spi)
+- [Madmapper intro (FR)](https://github.com/LucieMrc/Madmapper_2spi)
 
 *Ou comment mettre en place rapidement un mapping en utilisant Madmapper.*
 
-- [OSC](https://github.com/LucieMrc/MadMapper_OSC)
+- [OSC vers Madmapper (FR)](https://github.com/LucieMrc/MadMapper_OSC)
 
 *Ou comment contrôler différents paramètres de MadMapper avec un téléphone communiquant en OSC, grâce l'application ZIG SIM.*
 
-- [PixelMapping](https://github.com/LucieMrc/Madmapper_PixelMapping)
+- [PixelMapping (FR)](https://github.com/LucieMrc/Madmapper_PixelMapping)
 
 *Ou comment sortir un visuel sur des barres LED en pixel mapping.*
 
-- [Spatial Scanner](https://github.com/LucieMrc/MadMapper_SpatialScanner)
+- [Spatial Scanner (FR)](https://github.com/LucieMrc/MadMapper_SpatialScanner)
 
 *Ou comment mettre en place rapidement un mapping sur une structure en utilisant un appareil photo et le scanner spatial de Madmapper.*
 
