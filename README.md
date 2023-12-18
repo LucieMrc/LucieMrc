@@ -31,6 +31,11 @@
 
 *On how to use with almost full autonomy the light fixtures with Chataigne.*
 
+- [Tricotin 2spi](https://github.com/LucieMrc/SalleFondVert_Controller)
+
+*Ou comment utiliser le tricotin en autonomie.*
+
+
 ## TouchDesigner
 - [Intro TD (FR)](https://github.com/LucieMrc/IntroTD_FR) & [Intro TD (EN)](https://github.com/LucieMrc/IntroTD_Stereolux) 
 
@@ -67,6 +72,10 @@
 - [Touchdesigner text effects (EN)](https://github.com/LucieMrc/TD_textEffects)
 
 *On how to play around with text with Touchdesigner effects.*
+
+- [TD snippets](https://github.com/LucieMrc/TD_textEffects)
+
+*Useful bits of code*
 
 
 ## Madmapper
