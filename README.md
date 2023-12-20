@@ -73,10 +73,13 @@
 
 *On how to play around with text with Touchdesigner effects.*
 
-- [TD snippets](https://github.com/LucieMrc/TD_textEffects)
+<!-- - [TD snippets](https://github.com/LucieMrc/TD_textEffects)
 
-*Useful bits of code*
+*Useful bits of code* -->
 
+- [Touchdesigner pour le mapping (FR)](https://github.com/LucieMrc/TD_mapping_FR)
+
+*Créer pour le mapping grâce à TD.*
 
 ## Madmapper
 - [Madmapper intro (FR)](https://github.com/LucieMrc/Madmapper_2spi)
