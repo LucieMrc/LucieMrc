@@ -1,6 +1,4 @@
-# Tutoriels :
-
-## Tout faire à l'Ateliernum / *Do everything at the digital workshop*
+# Tout faire à l'Ateliernum / *Do everything at the digital workshop*
 - [Axidraw 2spi](https://github.com/LucieMrc/Axidraw_2spi) & [Axidraw sp33d](https://github.com/LucieMrc/Axidraw_sp33d)
 
 *Ou comment utiliser plus ou moins en autonomie l'Axidraw avec Inkscape et un .svg.*
@@ -35,8 +33,7 @@
 
 *Ou comment utiliser le tricotin en autonomie.*
 
-
-## TouchDesigner
+# TouchDesigner
 - [Intro TD (FR)](https://github.com/LucieMrc/IntroTD_FR) & [Intro TD (EN)](https://github.com/LucieMrc/IntroTD_Stereolux) 
 
 *Intro rapide avec des exemples de bases, des artistes et des tutos youtube.*
@@ -56,6 +53,9 @@
 - [Feedback love (EN)](https://github.com/LucieMrc/TD_feedback_love_EN)
 
 *On how to use the `Feedback` TOP in Touchdesigner to do nice stuffs.*
+
+- [MediaPipe pour TD (FR)](https://github.com/LucieMrc/MediaPipe_TD)
+*Ou comment utiliser MediaPipe dans TouchDesigner*
 
 - [KantanMapper (EN)](https://github.com/LucieMrc/TD_KantanMapper)
 
@@ -79,9 +79,9 @@
 
 - [Touchdesigner pour le mapping (FR)](https://github.com/LucieMrc/TD_mapping_FR)
 
-*Créer pour le mapping grâce à TD.*
+*Ou comment créer pour le mapping grâce à TD.*
 
-## Madmapper
+# Madmapper
 - [Madmapper intro (FR)](https://github.com/LucieMrc/Madmapper_2spi)
 
 *Ou comment mettre en place rapidement un mapping en utilisant Madmapper.*
@@ -98,7 +98,7 @@
 
 *Ou comment mettre en place rapidement un mapping sur une structure en utilisant un appareil photo et le scanner spatial de Madmapper.*
 
-## Arduino et Processing
+# Arduino et Processing
 - [Comm CPX Processing](https://github.com/LucieMrc/Communication_CCPX_Processing)
 
 *Ou comment créer une communication série entre la carte Circuit Playground Express d'Arduino, et Processing, notamment en récupérant les valeurs des capteurs capacitifs de la carte.*
@@ -107,7 +107,7 @@
 
 *The goal is to use OSC communication to send data from an android phone to a Processing sketch.*
 
-## Autres
+# Autres
 - [Chataigne 2spi](https://github.com/LucieMrc/Chataigne_2spi)
 
 *Ou comment utiliser Chataigne pour interfacer et faire le lien entre différents logiciels, protocoles et devices.*
