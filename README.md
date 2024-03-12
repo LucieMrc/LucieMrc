@@ -54,8 +54,11 @@
 
 *On how to use the `Feedback` TOP in Touchdesigner to do nice stuffs.*
 
-- [MediaPipe pour TD (FR)](https://github.com/LucieMrc/MediaPipe_TD)
-*Ou comment utiliser MediaPipe dans TouchDesigner*
+- [MediaPipe pour TD (FR)](https://github.com/LucieMrc/MediaPipe_TD_FR) & [MediaPipe for TD (EN)](https://github.com/LucieMrc/MediaPipe_TD_EN)
+
+*Ou comment utiliser le face tracking, hand tracking et squelette tracking pour créer de l'interaction avec un webcam à la manière d'une Kinect.*
+
+*On how to use the face tracking, hand tracking and skeleton tracking to create interaction with a webcam (like with a Kinect).*
 
 - [KantanMapper (EN)](https://github.com/LucieMrc/TD_KantanMapper)
 
@@ -73,13 +76,13 @@
 
 *On how to play around with text with Touchdesigner effects.*
 
+- [Touchdesigner : contenu pour le mapping (FR)](https://github.com/LucieMrc/TD_Contenu-pour-le-mapping)
+
+*Ou comment créer des visuels pour le mapping grâce à TD.*
+
 <!-- - [TD snippets](https://github.com/LucieMrc/TD_textEffects)
 
 *Useful bits of code* -->
-
-- [Touchdesigner pour le mapping (FR)](https://github.com/LucieMrc/TD_mapping_FR)
-
-*Ou comment créer pour le mapping grâce à TD.*
 
 # Madmapper
 - [Madmapper intro (FR)](https://github.com/LucieMrc/Madmapper_2spi)
