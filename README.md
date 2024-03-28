@@ -1,4 +1,5 @@
 # Tout faire à l'Ateliernum / *Do everything at the digital workshop*
+
 - [Axidraw 2spi](https://github.com/LucieMrc/Axidraw_2spi) & [Axidraw sp33d](https://github.com/LucieMrc/Axidraw_sp33d)
 
 *Ou comment utiliser plus ou moins en autonomie l'Axidraw avec Inkscape et un .svg.*
@@ -59,6 +60,12 @@
 *Ou comment utiliser le face tracking, hand tracking et squelette tracking pour créer de l'interaction avec un webcam à la manière d'une Kinect.*
 
 *On how to use the face tracking, hand tracking and skeleton tracking to create interaction with a webcam (like with a Kinect).*
+
+- [TD <-> Arduino (FR)](https://github.com/LucieMrc/TD_Arduino_FR) & [TD <-> Arduino (EN)](https://github.com/LucieMrc/TD_Arduino_EN)
+
+*Ou comment créer une communication Serial entre Touchdesigner et Arduino.*
+
+*On how to communicate via Serial between Touchdesigner and Arduino.*
 
 - [KantanMapper (EN)](https://github.com/LucieMrc/TD_KantanMapper)
 
