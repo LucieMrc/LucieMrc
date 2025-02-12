@@ -1,4 +1,4 @@
-# Tout faire à l'Ateliernum / *Do everything at the digital workshop*
+# Machines de prototypages à l'Ateliernum / *Prototyping machines in the digital workshop*
 
 - [Axidraw 2spi](https://github.com/LucieMrc/Axidraw_2spi) & [Axidraw sp33d](https://github.com/LucieMrc/Axidraw_sp33d)
 
@@ -18,6 +18,12 @@
 
 *On how to use the Silhouette Cameo with almost full autonomy, to cut vinyl, paper, etc.*
 
+- [Tricotin 2spi](https://github.com/LucieMrc/SalleFondVert_Controller)
+
+*Ou comment utiliser le tricotin en autonomie.*
+
+# Les studios de l'Ateliernum / *Studios in the digital workshop*
+
 - [Prise de son 2spi](https://github.com/LucieMrc/Prise2son_2spi) & [Sound Recording sp33d](https://github.com/LucieMrc/SoundRecording_sp33d)
 
 *Ou comment faire une prise de son en autonomie pour les voix-off, les podcasts et ainsi de suite.*
@@ -30,9 +36,9 @@
 
 *On how to use with almost full autonomy the light fixtures with Chataigne.*
 
-- [Tricotin 2spi](https://github.com/LucieMrc/SalleFondVert_Controller)
+- [Lidar en A5-03](https://github.com/LucieMrc/TD_lidar_A503)
 
-*Ou comment utiliser le tricotin en autonomie.*
+*Ou comment créer un projet et utiliser les lidars de la salle A5-03 avec Touchdesigner.*
 
 # TouchDesigner
 - [Intro TD (FR)](https://github.com/LucieMrc/IntroTD_FR) & [Intro TD (EN)](https://github.com/LucieMrc/IntroTD_Stereolux) 
@@ -46,10 +52,6 @@
 *Ou comment générer des visuels audio-réactifs sur TouchDesigner pour faire des dingz.*
 
 *On how to generative audio-reactive visuals with TouchDesigner.*
-
-- [Augmenta (EN)](https://github.com/LucieMrc/TD_Augmenta)
-
-*The goal is to create interactive installations using video mapping and the tracking system Augmenta with TouchDesigner.*
 
 - [Feedback love (EN)](https://github.com/LucieMrc/TD_feedback_love_EN)
 
@@ -86,6 +88,10 @@
 - [Touchdesigner : contenu pour le mapping (FR)](https://github.com/LucieMrc/TD_Contenu-pour-le-mapping)
 
 *Ou comment créer des visuels pour le mapping grâce à TD.*
+
+- [Augmenta (EN)](https://github.com/LucieMrc/TD_Augmenta)
+
+*On how to create interactive installations using video mapping and the tracking system Augmenta with TouchDesigner.*
 
 <!-- - [TD snippets](https://github.com/LucieMrc/TD_textEffects)
 
