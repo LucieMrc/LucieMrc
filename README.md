@@ -115,6 +115,12 @@
 *Ou comment mettre en place rapidement un mapping sur une structure en utilisant un appareil photo et le scanner spatial de Madmapper.*
 
 # Arduino et Processing
+- [Arduino Midi FR](https://github.com/LucieMrc/Arduino_MIDI_USB_FR) & [Arduino Midi EN](https://github.com/LucieMrc/Arduino_MIDI_USB_EN)
+
+*Ou comment communiquer en MIDI en utilisant une carte Arduino comme controleur MIDI.*
+
+*Or how to communicate via MIDI using an Arduino board as a MIDI controller.*
+
 - [Comm CPX Processing](https://github.com/LucieMrc/Communication_CCPX_Processing)
 
 *Ou comment créer une communication série entre la carte Circuit Playground Express d'Arduino, et Processing, notamment en récupérant les valeurs des capteurs capacitifs de la carte.*
