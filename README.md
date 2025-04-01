@@ -73,7 +73,7 @@
 
 *On how to use KantanMapper in TouchDesigner to create video mapping installations.*
 
-- [Easy image particules FR](https://github.com/LucieMrc/Easy_Particules_TD#easy-particules-dans-touchdesigner-fr) & [Easy image particles EN](https://github.com/LucieMrc/Easy_Particules_TD#easy-particules-in-touchdesigner-en)
+- [Easy image particules FR](https://github.com/LucieMrc/Easy_Particules_TD?tab=readme-ov-file#easy-particules-dans-touchdesigner-fr) & [Easy image particles EN](https://github.com/LucieMrc/Easy_Particules_TD?tab=readme-ov-file#easy-particules-in-touchdesigner-en)
 
 *Ou comment créer un nuage de particules à partir d'une image.*
 
