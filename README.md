@@ -79,6 +79,10 @@
 
 *On how to create an image driven particules cloud.*
 
+- [Liquid Metal (FR)](https://github.com/LucieMrc/Liquid_Metal_Aesthetic)
+
+*Ou comment créer une forme organique avec Blender puis lui donner un material chrome sur Touch.*
+
 - [Photogrammétrie (FR)](https://github.com/LucieMrc/Photogrammetrie)
 
 *Ou comment créer un nuage de points à partir de photos d'un objet ou d'une scène, et de manipuler ce nuage dans TouchDesigner.*
