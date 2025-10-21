@@ -1,0 +1,192 @@
+/* 1. Reset et Conteneur 100% Hauteur */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%; 
+    width: 100%;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Empêche le scroll sur desktop */
+}
+
+/* Le Conteneur principal utilise CSS GRID pour définir la mise en page */
+.gallery-container {
+    height: 100%;
+    width: 100%;
+    padding: 40px; /* Espace autour du contenu */
+
+    /* Utilisation de GRID pour organiser l'espace */
+    display: grid;
+    /* 1 ligne pour le haut (petite hauteur), 1 ligne flexible pour l'espace, 1 ligne pour le bas (petite hauteur) */
+    grid-template-rows: auto 1fr auto; 
+    grid-template-areas: 
+        "top-area"
+        "spacer"
+        "bottom-area";
+}
+
+/* 2. Style des Images (Dimensions inchangées) */
+.image-link {
+    display: block;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-link:hover {
+    transform: scale(1.03);
+    filter: invert(1) hue-rotate(20deg) brightness(0.4);
+}
+
+.image-placeholder {
+    width: 400px; 
+    height: 200px; 
+    /*border: 2px solid black;
+    /* background-color: lightgray; <-- À supprimer ou commenter */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    color: #333;
+
+    /* NOUVEAU : Propriétés pour la gestion de l'image de fond */
+    background-size: contain;      /* S'assure que l'image couvre tout le conteneur */
+    background-position: center; /* Centre l'image dans le conteneur */
+    background-repeat: no-repeat;/* Évite la répétition de l'image */
+    text-indent: -9999px;        /* Cache le texte "Image X" */
+}
+
+
+/* NOUVEAU : Définition des chemins d'accès pour chaque image */
+#img1 {
+    background-image: url('img2.svg'); /* MODIFIEZ le chemin d'accès */
+    width: 500px; /* Nouvelle largeur (exemple: 500px au lieu de 400px) */
+    height: 250px; /* Nouvelle hauteur (exemple: 250px au lieu de 200px) */
+}
+
+#img2 {
+    background-image: url('img3.svg'); /* MODIFIEZ le chemin d'accès */
+    width: 500px; /* Nouvelle largeur (exemple: 500px au lieu de 400px) */
+    height: 250px; /* Nouvelle hauteur (exemple: 250px au lieu de 200px) */
+}
+
+#img3 {
+    background-image: url('img4.svg'); /* MODIFIEZ le chemin d'accès */
+    
+}
+
+#img4 {
+    background-image: url('img5.svg'); /* MODIFIEZ le chemin d'accès */
+}
+
+/* 3. Groupe du Haut (Positionnement et Chevauchement) */
+.top-group {
+    grid-area: top-area; /* Positionné sur la zone du haut de la grille */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centrer le groupe horizontalement dans la zone */
+    position: relative; /* Référence pour le chevauchement */
+    /* Ajouter une petite marge en bas pour l'espace visuel */
+    margin-bottom: 10px; 
+}
+
+/* Rétablissement du chevauchement de l'image de base */
+.overlap-top-left {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 450px); /* Aligne son bord gauche par rapport au centre du .top-group */
+    z-index: 3;
+}
+
+.overlap-top-right {
+    position: absolute;
+    top: 70px; /* Décalage vertical léger (comme sur l'image de base) */
+    left: calc(50% - 100px); /* Décalage horizontal pour chevaucher Image 1 */
+    z-index: 2; 
+}
+
+
+/* 4. Groupe du Bas (Aligné en Bas) */
+.bottom-group {
+    grid-area: bottom-area; /* Positionné sur la zone du bas de la grille */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centre les deux images ensemble */
+    gap: 0%; /* Espacement entre Image 3 (Bas Gauche) et Image 4 (Bas Droit) */
+    padding-bottom: 5%;
+}
+
+/* Assurer que les éléments du bas s'alignent bien même s'ils ont une taille définie */
+.bottom-left, .bottom-right {
+    flex-shrink: 0; /* Empêche les images de rétrécir */
+}
+
+
+/* 5. MEDIA QUERY POUR LE RESPONSIVE (Téléphone) */
+
+@media (max-width: 768px) {
+    /* Annuler le plein écran forcé et permettre le scroll */
+    html, body {
+        height: auto;
+    }
+    
+    body {
+        overflow-y: auto; 
+    }
+
+    .gallery-container {
+        grid-template-rows: auto auto; /* Plus besoin de la ligne 'spacer' */
+        grid-template-areas: 
+            "top-area"
+            "bottom-area";
+        padding: 20px 10px;
+        height: auto;
+    }
+    
+    /* Le groupe du haut ne se chevauche plus et s'empile */
+    .top-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+        position: static;
+    }
+
+    .overlap-top-left, .overlap-top-right {
+        /* Annuler le positionnement absolu pour empilement */
+        position: static; 
+        z-index: auto;
+        left: auto;
+        top: auto;
+    }
+
+    /* Le groupe du bas s'empile également */
+    .bottom-group {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    /* Taille des images sur mobile */
+    .image-link {
+        width: 90%; 
+        max-width: 400px;
+    }
+
+    .image-placeholder {
+        width: 100%; 
+        /*height: 180px; */
+    }
+
+    #img1, #img2 {
+        /* Nous avions 500px de large et 250px de haut sur desktop (ratio 2:1). */
+        /* Nous conservons ce ratio pour la hauteur mobile. */
+        height: 250px; 
+    }
+}

@@ -3,221 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucie MRC - Design Final</title>
-    <style>
-        /* ========================================
-        STYLES GÉNERAUX
-        ======================================== */
-        body {
-            background-color: #F5F2F0; /* Fond Crème très pâle */
-            font-family: Arial, sans-serif;
-            margin: 20vh;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh; 
-            position: relative;
-        }
-        
-        .main-container {
-            width: 100%;
-            max-width: 800px; 
-            margin-top: 100px; 
-            position: relative; 
-            padding: 20px;
-        }
-
-        /* ========================================
-        STYLES DES LOGOS (Formes Ovales)
-        ======================================== */
-        .logo-container {
-            position: absolute;
-            width: 200%;
-            height: 350px;
-            top: -100px; 
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        
-        .oval {
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 3px solid black; /* Bordure par défaut */
-            border-radius: 50%; 
-            box-sizing: border-box;
-            font-weight: bold;
-            font-size: 2.2rem;
-            letter-spacing: 0.5px;
-            white-space: nowrap; 
-            padding: 15px 35px;
-            font-family: Arial, sans-serif;
-            transform-origin: center;
-        }
-
-        /* OVALE PRINCIPAL (Lucie MRC) - DOUBLE CONTOUR APPLIQUÉ ICI */
-        #oval-main {
-            background-color: #FF69B4; /* Rose Vif */
-            color: black;
-            width: 400px;
-            height: 160px;
-            top: 20%;
-            left: 48%;
-            transform: translate(-50%, -50%) rotate(-5deg); 
-            z-index: 3; 
-            font-size: 3.5rem;
-            
-            /* SIMULATION DU DOUBLE CONTOUR : Utilisation de box-shadow */
-            box-shadow: 
-                0 0 0 4px #FF69B4,      /* Rempli l'espace avec la couleur rose */
-                0 0 0 8px black,        /* Ligne noire extérieure */
-                0 0 0 12px #FF69B4,      /* Rempli encore avec la couleur rose (pour l'espace) */
-                0 0 0 16px black;       /* Le deuxième contour noir visible */
-            
-            /* Pour un rendu exact du design, l'ombre doit être très fine
-               En ajustant pour un design plus propre, on peut simplifier : */
-            /* box-shadow: 0 0 0 3px black, 0 0 0 6px #FF69B4, 0 0 0 9px black; */
-            
-            /* Gardons la version la plus fidèle : 
-            border: 3px solid black;
-            box-shadow: 0 0 0 3px #FF69B4, 0 0 0 6px black; */
-            
-            /* La solution simple et la plus fidèle au visuel : */
-            border: 4px solid black;
-            box-shadow: 0 0 0 8px #FF69B4, 0 0 0 12px black; /* 2e ligne noire */
-        }
-        
-        /* OVALE SECONDAIRE (luciemrc) - BORDURE SIMPLE */
-        #oval-sub {
-            background-color: #C60033; /* Rouge Profond */
-            color: black;
-            width: 250px;
-            height: 70px;
-            top: 50%; 
-            left: 56%; 
-            transform: translate(-50%, -50%) rotate(5deg); 
-            font-size: 2rem;
-            z-index: 2; 
-            border: 4px solid black; /* Bordure noire simple */
-            box-shadow: 
-                0 0 0 3px #C60033,      /* Rempli l'espace avec la couleur rose */
-                0 0 0 6px black,        /* Ligne noire extérieure */
-                0 0 0 9px #C60033,      /* Rempli encore avec la couleur rose (pour l'espace) */
-                0 0 0 12px black;       /* Le deuxième contour noir visible */
-            
-            /* Pour un rendu exact du design, l'ombre doit être très fine
-               En ajustant pour un design plus propre, on peut simplifier : */
-            /* box-shadow: 0 0 0 3px black, 0 0 0 6px #FF69B4, 0 0 0 9px black; */
-            
-            /* Gardons la version la plus fidèle : 
-            border: 3px solid black;
-            box-shadow: 0 0 0 3px #FF69B4, 0 0 0 6px black; */
-            
-            /* La solution simple et la plus fidèle au visuel : */
-            border: 4px solid black;
-            box-shadow: 0 0 0 8px #C60033, 0 0 0 12px black; /* 2e ligne noire */        }
-
-        /* ========================================
-        STYLES DES BOUTONS (Rectangles)
-        **Boîte simple superposée (comme dans le design original)**
-        ======================================== */
-        .button-grid {
-            margin-top: 180px; 
-            display: flex;
-            justify-content: center;
-            gap: 10%; 
-        }
-        
-        .btn-box {
-            position: relative;
-            cursor: pointer;
-            text-decoration: none;
-            color: black;
-        }
-
-        /* L'ombre (la boîte du dessous) */
-        .btn-box::before {
-            content: '';
-            position: absolute;
-            top: -10px; /* Décalage de l'ombre */
-            left: -10px;
-            width: 200px;
-            height: 80px;
-            border: 3px solid black;
-            background-color: white;
-            z-index: 0;
-        }
-
-        /* La boîte du bouton au premier plan */
-        .btn-content {
-            position: relative;
-            width: 200px; 
-            height: 80px;
-            border: 3px solid black;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            z-index: 1;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-
-        .btn-text {
-            font-size: 1.5rem;
-            font-weight: normal;
-            line-height: 1.2;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            /* Ligne de soulignement */
-            border-bottom: 2px solid black;
-            display: inline-block;
-        }
-
-        #bouton1{
-            transform: translate(-20%, -40%);
-        }
-
-        #bouton2{
-            height: 120px;
-        }
-        
-        /* Ajustements spécifiques pour le Quiz */
-        #quiz-text {
-            font-size: 1.3rem; 
-        }
-
-    </style>
+    <title>Galerie Pleine Écran Responsive</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="main-container">
+    <div class="gallery-container">
         
-        <div class="logo-container">
-            <div id="oval-sub" class="oval">luciemrc</div>
-            <div id="oval-main" class="oval">Lucie MRC</div>
-        </div>
+        <div class="top-group">
 
-        <div class="button-grid">
-            
-            <a href="https://github.com/LucieMrc" class="btn-box" id="bouton1">
-                <div class="btn-content">
-                    <p class="btn-text">Ressources</p>
+            <a href="#" class="image-link overlap-top-left">
+                <div class="image-placeholder" id="img1">
+                    Image 1 (Haut Gauche)
                 </div>
             </a>
-            
-            <a href="/Quizz_interior_design" class="btn-box" id="bouton2">
-                <div class="btn-content">
-                    <p id="quiz-text" class="btn-text">Quizz design....</p>
-                </div>
+            <a href="#" class="image-link overlap-top-right">
+                <div class="image-placeholder" id="img2">Image 2 (Haut Droit)</div>
             </a>
         </div>
-        
+
+        <div class="bottom-group">
+            <a href="#" class="image-link bottom-left">
+                <div class="image-placeholder" id="img3">Image 3 (Bas Gauche)</div>
+            </a>
+            <a href="#" class="image-link bottom-right">
+                <div class="image-placeholder" id="img4">Image 4 (Bas Droit)</div>
+            </a>
+        </div>
     </div>
-
 </body>
 </html>
