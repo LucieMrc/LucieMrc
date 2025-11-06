@@ -125,6 +125,11 @@
 *Ou comment mettre en place rapidement un mapping sur une structure en utilisant un appareil photo et le scanner spatial de Madmapper.*
 
 # Arduino et Processing
+
+- [Arduino Finite State Machine](https://github.com/LucieMrc/FiniteStateMachine_Arduino)
+
+*Code with me une petite machine de jeu sur Arduino*
+
 - [Arduino Midi FR](https://github.com/LucieMrc/Arduino_MIDI_USB_FR) & [Arduino Midi EN](https://github.com/LucieMrc/Arduino_MIDI_USB_EN)
 
 *Ou comment communiquer en MIDI en utilisant une carte Arduino comme controleur MIDI.*
