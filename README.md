@@ -103,6 +103,8 @@
 
 *On how to create interactive installations using video mapping and the tracking system Augmenta with TouchDesigner.*
 
+- NO TUTO [dither anything tool](https://github.com/LucieMrc/Dither_touchdesigner)
+
 <!-- - [TD snippets](https://github.com/LucieMrc/TD_textEffects)
 
 *Useful bits of code* -->
